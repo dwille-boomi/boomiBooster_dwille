@@ -17,7 +17,7 @@ Your final Process will look similar to this:
 
 1. Create a new Process in your directory of choice.
 2. Modify your Start Shape as follows:
-	* Type: Connector
+	* ***Type:*** Connector
 	* Display Name: Any alias you desire, eg. Generic HTTP Listener
 	* Connector: Web Services Server
 	* Action: Listen
