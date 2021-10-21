@@ -34,6 +34,10 @@ I strongly suggest completing the Boomi Essentials course before this lab if you
 - ***Step Six***: [Configure the Webserver](doc/echoLab.md#configure-the-webserver)
 - ***Step Seven***: [Test your Process](doc/echoLab.md#test-your-process)
 
+## Video Walkthrough
+
+[![Boomi Basics Echo Lab](https://img.youtube.com/vi/ejYUxlzL6Sw/0.jpg)](https://youtu.be/ejYUxlzL6Sw)
+
 ## Terminology
 
 To execute on this lab, you should be familiar with the following terms and concepts:
