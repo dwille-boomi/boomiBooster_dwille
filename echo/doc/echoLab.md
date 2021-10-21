@@ -25,7 +25,7 @@ Your final Process will look similar to this:
 
 1. Create a new Process in your directory of choice.
 2. Modify the Process name at the top of the tab as desired (eg Basic Echo).
-3. Modify your Start Shape as follows, completing the Web Service Operation step in the section below as required:
+3. Modify your Start Shape as follows, completing the Web Service (WS) Operation step in the section below as required:
 	* ***Type***: Connector
 	* ***Display Name***: Any alias you desire, eg. Generic HTTP Listener
 	* ***Connector***: Web Services Server
@@ -93,15 +93,38 @@ Your Process should now look similar to the image shown:
 
 ## Package and Deploy the Process
 
+To test the Process, we must package and deploy it to an Atom. As this process will vary based on your configuration and environment, exact steps are not provided and instead the assumption of this knowledge is tracked in the [Prerequisites](../README.md#prerequisites) section.
 
+1. Click Create Packaged Component in the top right hand corner of the Process canvas interface.
+2. Deploy the Packaged Component
 
 ## Configure the Webserver
 
+The setup provided here will be for a minimal viable solution. More advanced authentication, API Management, etc. methods could be used to extend this as desired.
+***Note:*** Changing these settings could modify the behavior of other deployments in your environment. This lab is done assuming a fresh setup.
+
+1. Navigate to Manage --> Atom Management, and select the environment you deployed to on the left hand navigation pane.
+
 ![Atom Management](../res/atomManagement.png "Atom Management")
+
+2. Navigate to the Settings & Configuration --> Shared Web Server. Configure this as follows:
+	* ***Base URL***: You will want to capture this value for later use.
+	* ***API Type***: Intermediate. This will allow us to control our Auth method here rather than in the APIM configuration and call the WS directly.
+	* ***Authentication Type***: Basic
+3. Save the setup. Once complete, it should look similar to the following:
+
 ![Web Server Setup](../res/webServerSetup.png "Web Server Setup")
+
+4. In the same interface, navigate to the User Management tab (upper, middle of interface). Ensure you have a user here and generate a token if you have not done so already. You will want to capture the Username and Token (password) for authenticating to the Web Service.
+
 ![Web Server Auth](../res/webServerAuth.png "Web Server Auth")
 
-## Test your Process
+Ensure you capture:
 
+- Base URL (eg https://c01-usa-east.integrate-test.boomi.come)
+- Username
+- Toke (password)
+
+## Test your Process
 
 
