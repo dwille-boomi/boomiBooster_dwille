@@ -45,3 +45,4 @@ To execute on this lab, you should be familiar with the following terms and conc
 ## Additional Documentation
 
 Boomi Docs: https://help.boomi.com/bundle/integration/page/c-atm-Getting_started.html
+GitHub Repo for this Lab: https://github.com/dwille-boomi/boomiBooster_dwille/tree/main/echo
