@@ -108,7 +108,7 @@ The setup provided here will be for a minimal viable solution. More advanced aut
 ![Atom Management](../res/atomManagement.png "Atom Management")
 
 2. Navigate to the Settings & Configuration --> Shared Web Server. Configure this as follows:
-	* ***Base URL***: You will want to capture this value for later use.
+	* ***Base URL***: You will want to capture this value for later use. (eg https://c01-usa-east.integrate-test.boomi.com)
 	* ***API Type***: Intermediate. This will allow us to control our Auth method here rather than in the APIM configuration and call the WS directly.
 	* ***Authentication Type***: Basic
 3. Save the setup. Once complete, it should look similar to the following:
@@ -121,10 +121,40 @@ The setup provided here will be for a minimal viable solution. More advanced aut
 
 Ensure you capture:
 
-- Base URL (eg https://c01-usa-east.integrate-test.boomi.come)
+- Base URL (eg. https://c01-usa-east.integrate-test.boomi.come)
 - Username
-- Toke (password)
+- Token (password)
 
 ## Test your Process
 
+Now that you have deployed and configured your Web Service, you can proceed to test it out using the provided [Sample Request](../test/sampleRequest.json "Sample Request"). Here is an example setup in Postman with the Authorization section set to Basic Auth with the Username and Token configured:
 
+![Postman Test](../res/postmanTest.png "Postman Test")
+
+Alternatively something like CURL could be used for testing instead, similar to either of the examples shown below:
+
+```
+curl --location --request POST 'https://c01-usa-east.integrate-test.boomi.com/ws/simple/createDwille' \
+--header 'Authorization: Basic someBase64Value' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"id": "123456789"
+}'
+```
+
+```
+curl -X 'POST' \
+  'https://c01-usa-east.integrate-test.boomi.com/ws/simple/createDwille' \
+  -u 'someUsername':'somePassword' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "id": "123456789"
+}'
+```
+
+## Conclusion
+
+Congratulations! At this point you should have a working Web Server Listener that should echo back your incoming request. 
+
+***Next Steps***: From here, you can start to explore different Steps by inserting them between the Start and Reflect Document shapes.
