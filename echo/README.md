@@ -1,6 +1,7 @@
 # Basic Echo Service
 
 Step-by-Step procedure for creating a simple Process that will listen for and echo (reflect) back a sample HTTP Request payload.
+This document was generated from my GitHub repo found here: https://github.com/dwille-boomi/boomiBooster_dwille/tree/main/echo
 
 ## Purpose and Background
 
@@ -45,4 +46,3 @@ To execute on this lab, you should be familiar with the following terms and conc
 ## Additional Documentation
 
 Boomi Docs: https://help.boomi.com/bundle/integration/page/c-atm-Getting_started.html
-GitHub Repo for this Lab: https://github.com/dwille-boomi/boomiBooster_dwille/tree/main/echo
