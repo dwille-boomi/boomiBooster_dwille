@@ -6,14 +6,24 @@ This document will walk you step-by-step through building out your echo service.
 
 This is a very basic Process with only two shapes:
 
-- Start Shape: This defines your Listener (Protocol, Operation, Profile)
-- Reflect Current Document: This will return your Document (payload/message body) back to the requesting client.
+- ***Start Shape***: This defines your Listener (Protocol, Operation, Profile)
+- ***Reflect Current Document***: This will return your Document (payload/message body) back to the requesting client.
 
-Your final process will look similar to this:
+Your final Process will look similar to this:
 
 ![Process Overview](../res/processOverview.png "Process Overview")
 
 ## Build the Start Shape
+
+1. Create a new Process in your directory of choice.
+2. Modify your Start Shape as follows:
+	* Type: Connector
+	* Display Name: Any alias you desire, eg. Generic HTTP Listener
+	* Connector: Web Services Server
+	* Action: Listen
+	* Operation: Click the '+' to [Build the Web Services Server Listen Operation](doc/echoLab.md#build-the-web-services-server-listen-operation)
+
+Continue through the steps below to finish setting up the Start Shape. Once complete, it should look similar to the following:
 
 ![Start Shape](../res/startShape.png "Start Shape")
 
@@ -38,4 +48,6 @@ Your final process will look similar to this:
 ![Web Server Auth](../res/webServerAuth.png "Web Server Auth")
 
 ## Test your Process
+
+
 

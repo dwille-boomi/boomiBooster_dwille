@@ -12,19 +12,22 @@ The objective of this exercise is to build a Process that will Listen for an HTT
 ## Process
 
 - ***Step One***: [Build the Start Shape](doc/echoLab.md#build-the-start-shape)
-- ***Step Two***: [Build the Web Services Server Listen Operation](echoLab.md)
-- ***Step Three***: [Build the JSON Profile](echoLab.md)
-- ***Step Four***: [Buildout the Process](echoLab.md)
-- ***Step Five***: [Package and Deploy the Process](echoLab.md)
-- ***Step Six***: [Configure the Webserver](echoLab.md)
-- ***Step Seven***: [Test your Process](echoLab.md)
+- ***Step Two***: [Build the Web Services Server Listen Operation](doc/echoLab.md#build-the-web-services-server-listen-operation)
+- ***Step Three***: [Build the JSON Profile](doc/echoLab.md#build-the-json-profile)
+- ***Step Four***: [Buildout the Process](doc/echoLab.md#buildout-the-process)
+- ***Step Five***: [Package and Deploy the Process](doc/echoLab.md#package-and-deploy-the-process)
+- ***Step Six***: [Configure the Webserver](doc/echoLab.md#configure-the-webserver)
+- ***Step Seven***: [Test your Process](doc/echoLab.md#test-your-process)
 
 ## Prerequisites
 
 The following prerequisites should be completed before the workshop starts.
 
 - Have access to the Boomi Atomsphere Platform
+- Basic knowledge of how to work in the Boomi Platform
 - Have a deployed Atom/Environment
+
+I strongly suggest completing the Boomi Essentials course before this lab if you have not done so already.
 
 ## Terminology
 
