@@ -1,6 +1,6 @@
 # Basic Echo Service
 
-Step-by-Step procedure for creating a simple Process that will listen for and echo an HTTP Request payload.
+Step-by-Step procedure for creating a simple Process that will listen for and echo (reflect) back a sample HTTP Request payload.
 
 ## Purpose and Background
 
@@ -8,16 +8,6 @@ The objective of this exercise is to build a Process that will Listen for an HTT
 
 - To learn some of the very basics of the Boomi platform.
 - To lay the foundation of a sandbox Process to inject and test different shapes.
-
-## Process
-
-- ***Step One***: [Build the Start Shape](doc/echoLab.md#build-the-start-shape)
-- ***Step Two***: [Build the Web Services Server Listen Operation](doc/echoLab.md#build-the-web-services-server-listen-operation)
-- ***Step Three***: [Build the JSON Profile](doc/echoLab.md#build-the-json-profile)
-- ***Step Four***: [Buildout the Process](doc/echoLab.md#buildout-the-process)
-- ***Step Five***: [Package and Deploy the Process](doc/echoLab.md#package-and-deploy-the-process)
-- ***Step Six***: [Configure the Webserver](doc/echoLab.md#configure-the-webserver)
-- ***Step Seven***: [Test your Process](doc/echoLab.md#test-your-process)
 
 ## Prerequisites
 
@@ -31,6 +21,16 @@ The following prerequisites should be completed before the workshop starts.
 - Basic knowledge on how to use a test client like Postman or CURL
 
 I strongly suggest completing the Boomi Essentials course before this lab if you have not done so already.
+
+## Process
+
+- ***Step One***: [Build the Start Shape](doc/echoLab.md#build-the-start-shape)
+- ***Step Two***: [Build the Web Services Server Listen Operation](doc/echoLab.md#build-the-web-services-server-listen-operation)
+- ***Step Three***: [Build the JSON Profile](doc/echoLab.md#build-the-json-profile)
+- ***Step Four***: [Buildout the Process](doc/echoLab.md#buildout-the-process)
+- ***Step Five***: [Package and Deploy the Process](doc/echoLab.md#package-and-deploy-the-process)
+- ***Step Six***: [Configure the Webserver](doc/echoLab.md#configure-the-webserver)
+- ***Step Seven***: [Test your Process](doc/echoLab.md#test-your-process)
 
 ## Terminology
 
