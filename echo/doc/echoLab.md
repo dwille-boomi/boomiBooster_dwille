@@ -21,7 +21,7 @@ Your final Process will look similar to this:
 	* Display Name: Any alias you desire, eg. Generic HTTP Listener
 	* Connector: Web Services Server
 	* Action: Listen
-	* Operation: Click the '+' to [Build the Web Services Server Listen Operation](doc/echoLab.md#build-the-web-services-server-listen-operation)
+	* Operation: Click the '+' to [Build the Web Services Server Listen Operation](#build-the-web-services-server-listen-operation)
 
 Continue through the steps below to finish setting up the Start Shape. Once complete, it should look similar to the following:
 
