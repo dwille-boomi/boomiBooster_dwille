@@ -1,0 +1,1 @@
+Some manifest data.
