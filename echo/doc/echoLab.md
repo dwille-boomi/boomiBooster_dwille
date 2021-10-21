@@ -69,11 +69,11 @@ After being redirected to the New JSON Profile dialog, complete the following st
 
 ![JSON Import](../res/jsonImport.png "JSON Import")
 
-3. Save and Close. This should take you back to the to the interface to complete the [Web Services Server Listen Operation](#build-the-web-services-server-listen-operation) step.
-
 Your finished JSON Profile should look similar to the following:
 
 ![JSON Profile](../res/jsonProfile.png "JSON Profile")
+
+3. Save and Close. This should take you back to the to the interface to complete the [Web Services Server Listen Operation](#build-the-web-services-server-listen-operation) step.
 
 ## Buildout the Process
 
