@@ -11,9 +11,9 @@ The objective of this exercise is to build a Process that will Listen for an HTT
 
 ## Process
 
-- ***Step One***: [Create the Start Shape](echoLab.md)
-- ***Step Two***: [Create the Web Services Server Listen Operation](echoLab.md)
-- ***Step Three***: [Create the JSON Profile](echoLab.md)
+- ***Step One***: [Build the Start Shape](echoLab.md)
+- ***Step Two***: [Build the Web Services Server Listen Operation](echoLab.md)
+- ***Step Three***: [Build the JSON Profile](echoLab.md)
 - ***Step Four***: [Buildout the Process](echoLab.md)
 - ***Step Five***: [Package and Deploy the Process](echoLab.md)
 - ***Step Six***: [Configure the Webserver](echoLab.md)
