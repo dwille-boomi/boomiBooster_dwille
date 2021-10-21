@@ -18,8 +18,8 @@ Your final Process will look similar to this:
 
 ## Prerequisites
 
-- Download the [Sample JSON Profile](samples/sampleProfile.json "Sample JSON Profile")
-- Download the [Sample Request](test/sampleRequest.json "Sample Request")
+- Download the [Sample JSON Profile](../samples/sampleProfile.json "Sample JSON Profile")
+- Download the [Sample Request](../test/sampleRequest.json "Sample Request")
 
 ## Build the Start Shape
 
