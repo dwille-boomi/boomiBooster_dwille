@@ -36,7 +36,7 @@ I strongly suggest completing the Boomi Essentials course before this lab if you
 
 ## Video Walkthrough
 
-[![Boomi Basics Echo Lab](https://img.youtube.com/vi/ejYUxlzL6Sw/0.jpg)](https://youtu.be/ejYUxlzL6Sw)
+
 
 ## Terminology
 
