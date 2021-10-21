@@ -65,7 +65,7 @@ Ensure you capture:
 After being redirected to the New JSON Profile dialog, complete the following steps:
 
 1. Modify your Operation name at the top of the tab as desired (eg Basic JSON TEST Profile).
-2. Click either the "Import a Profile" or "Import" button. Select JSON File and chooe the [Sample JSON Profile](samples/sampleProfile.json "Sample JSON Profile") you downloaded in the [Prerequisites](#prerequisites) section. The Import interface should look similar to the below image. Click Next, Finish.
+2. Click either the "Import a Profile" or "Import" button. Select JSON File and chooe the [Sample JSON Profile](../samples/sampleProfile.json "Sample JSON Profile") you downloaded in the [Prerequisites](#prerequisites) section. The Import interface should look similar to the below image. Click Next, Finish.
 
 ![JSON Import](../res/jsonImport.png "JSON Import")
 
