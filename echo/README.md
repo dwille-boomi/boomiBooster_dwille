@@ -26,6 +26,9 @@ The following prerequisites should be completed before the workshop starts.
 - Have access to the Boomi Atomsphere Platform
 - Basic knowledge of how to work in the Boomi Platform
 - Have a deployed Atom/Environment
+- Know how to create a Packaged Component
+- Know how to Deploy a Process
+- Basic knowledge on how to use a test client like Postman or CURL
 
 I strongly suggest completing the Boomi Essentials course before this lab if you have not done so already.
 
